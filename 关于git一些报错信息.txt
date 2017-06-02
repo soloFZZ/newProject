@@ -1,0 +1,8 @@
+git remote add origin yourEmail.com
+报错fatal: remote origin already exists.  意为origin已经被使用了，
+解决方式：1、重新起个名字。不用origin
+	  2、remote rm origin 把占用的这个那个移除掉
+
+远程有README文件，本地没有
+git pull --rebase origin master
+git remote -v 查看当前所有的远程库名
