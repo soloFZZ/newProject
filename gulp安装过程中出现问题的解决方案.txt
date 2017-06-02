@@ -8,3 +8,8 @@ npm config set strict-ssl false
 用完之后恢复：
 
 npm config set strict-ssl true
+
+
+
+
+changshi 
